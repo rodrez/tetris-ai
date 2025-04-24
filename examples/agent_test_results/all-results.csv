@@ -1,0 +1,7 @@
+run_name,holes_weight,height_weight,bumpiness_weight,lines_cleared_weight,well_depth_weight,episodes,avg_score,avg_lines,avg_steps,avg_duration,max_score,max_lines,action_noop,action_left,action_right,action_rotate_cw,action_rotate_ccw,action_soft_drop,action_hard_drop
+default_heuristic,-4.0,-0.5,-1.0,3.0,0.5,10,11880.0,102.7,1218.7,57.30,28100,246,0,2488,4563,1844,370,56,2866
+aggressive,-2.0,-0.2,-0.5,10.0,0.1,10,12820.0,118.8,1390.1,65.95,20700,189,0,2942,5223,2002,397,60,3277
+build_wells,-3.0,-0.5,-1.0,4.0,5.0,10,0.0,0.0,43.0,2.02,0,0,0,28,172,73,22,36,99
+minimize_bumpiness,-4.0,-0.6,-5.0,3.0,0.2,10,790.0,7.8,214.1,9.83,1600,16,0,538,750,280,20,39,514
+survival,-10.0,-2.0,-1.5,1.0,-0.5,10,24210.0,203.4,2268.2,108.87,78700,651,0,4871,8456,3411,501,31,5412
+
