@@ -1,15 +1,13 @@
-# Tetris AI Testbed
+# Tetris AI
 
-A robust implementation of Tetris designed specifically as a standardized testbed for experimenting with various AI techniques. This project provides a clear API for AI agents to interact with the game, similar to OpenAI Gym environments.
+An implementation of Tetris designed for experimenting with various AI techniques. This project provides an API for AI agents to interact with the game, similar to OpenAI Gym environments.
 
 ## Features
 
-- Full Tetris game engine implementation
+- Full Tetris game engine implementation (except piece holds)
 - Standardized AI interface for experimentation
-- Support for both visual and headless modes
-- Comprehensive state representation and action space
-- Performance optimized for rapid simulation
-- Visualization tools for debugging
+- Support for both visual and headless modes (headless not tested)
+- State representation and action space
 
 ## Installation
 
@@ -96,15 +94,15 @@ while not done:
 
 ## State Representation
 
-The game state is represented as a 2D numpy array where:
+The game state is represented as a 2D numpy array:
 - 0: Empty cell
 - ASCII values of piece types ('I', 'O', 'T', etc.): Filled cells
 
-Additional information available in the info dictionary:
+Additional info available in the info dictionary:
 - score: Current game score
 - lines_cleared: Number of lines cleared
 - next_piece: Type of the next piece
-- game_over: Whether the game has ended
+- game_over: Has the game has ended?
 
 ## Action Space
 
@@ -124,13 +122,7 @@ The reward function considers:
 - Bonus for clearing multiple lines simultaneously
 - Penalty for game over
 
-## Contributing
-
-1. Fork the repository
-2. Create your feature branch
-3. Commit your changes
-4. Push to the branch
-5. Create a Pull Request
+  Note: These are adjustable
 
 ## License
 
